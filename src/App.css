@@ -1,0 +1,8 @@
+.input-gap {
+  margin-top: 20px;
+
+  input {
+    padding: 10px;
+    outline: none;
+  }
+}

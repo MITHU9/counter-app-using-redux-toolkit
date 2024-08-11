@@ -7,7 +7,7 @@ import Controls from "./components/Controls";
 import PrivacyMessage from "./components/PrivacyMessage";
 import { useSelector } from "react-redux";
 function App() {
-  const isPrivate = useSelector((store) => store.isPrivate);
+  const isPrivate = useSelector((store) => store.privacy);
 
   return (
     <div className="px-4 py-5 my-5 text-center">
